@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F0FFFF;
+}
+
+/* ~~~~~ NAVBAR ~~~~~~ */
+
+#logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.navbar {
+    background-color: rgb(128, 147, 165);
+    overflow: auto;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li a {
+    transition: all 0.3s ease 0;
+}
+
+.navLinks li a:hover {
+    color: #0088a9
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+/* ~~~~~ HOME FRONT ~~~~~~ */
+
+.homefront_leftsection {
+    border-style:solid;
+    border-color:#287EC7;
+    display: inline-block;
+    margin: 250px 0px 0px 350px;
+}
+
+.mainQuote {
+    position: relative;
+    top:30%;
+    background-color:#4c6ca0;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+}
+
+.mainQuote:hover {
+    background-color: #446190;
+    color: #f4f4f4;
+}
+.homefront_rightsection {
+    border-style:solid;
+    border-color:#287EC7;
+    float: right;
+    margin: 200px 400px 0px 0px 
+}
+
+
+/*----- FOOTER -------*/
+
+footer {
+    display: block;
+    box-shadow: 20px 20px 80px 5px  rgb(112, 150, 163) inset;
+}
+
+.bottom {
+    position: static;  
+    width: 100%;  
+    background-color:  rgb(210, 231, 231);  
+    color: black;  
+    text-align: center;  
+}
+
+.fa {
+    padding: 20px;
+    margin: 0px 15px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-github {
+    background: #43029794;
+    color: white;
+  }

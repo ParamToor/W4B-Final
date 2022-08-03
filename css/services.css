@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F0FFFF;
+}
+
+/* ~~~~~ NAVBAR ~~~~~~ */
+
+#logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 100px;
+}
+
+.navbar {
+    background-color: rgb(128, 147, 165);
+    overflow: auto;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li a {
+    transition: all 0.3s ease 0;
+}
+
+.navLinks li a:hover {
+    color: #0088a9
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.opener {
+    margin: 50px 750px 50px
+}
+
+/* ~~~~~ LIST OF SERVICES ~~~~~~ */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.smallCell {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 0 1em;
+    padding: 0;
+    width: 32.33%;
+    align-items: center;
+    overflow: auto;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+/*----- FOOTER -------*/
+
+footer {
+    display: block;
+    box-shadow: 20px 20px 80px 5px  rgb(112, 150, 163) inset;
+}
+
+.bottom {
+    position: static;  
+    width: 100%;  
+    background-color:  rgb(210, 231, 231);  
+    color: black;  
+    text-align: center;  
+}
+
+.fa {
+    padding: 20px;
+    margin: 0px 15px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-github {
+    background: #43029794;
+    color: white;
+  }
